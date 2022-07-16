@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>スポフェス2022</title>
     <link rel="stylesheet" href="css/global.css" type="text/css" media="screen">
-    
+    <script src="js/script.js" defer></script>
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 </head>
 <body>
 <header class="header">
@@ -46,15 +52,18 @@
 
     <section class="kyougi">
         <h2><img src="img/text/mojikyougi.png" alt="競技紹介"></h2>
-        <ul>
-            <li><a href="../time/#links11"><img src="img/tamaire.png" alt="玉入れ"></a></li>
-            <li><a href="../time/#links10"><img src="img/odama.png" alt="大玉送り"></a></li>
-            <li><a href="../time/#links09"><img src="img/urutora.png" alt="電子学園ウルトラクイズ"></a></li>
-        </ul>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/urutora.png" alt="電子学園ウルトラクイズ"></div>
+                <div class="swiper-slide"><img src="img/odama.png" alt="大玉送り"></div>
+                <div class="swiper-slide"><img src="img/tamaire.png" alt="玉入れ"></div>
+            </div>
+        </div>
         
         <p>スポフェスは競技だけじゃないですよ！<br>
             応援や仮装をしたりして楽しみましょう！</p>
-        <a href="time/index.html">詳しくはこちら</a>
+            <div class="btn00">
+        <a class="btn000" href="time/index.html">詳しくはこちら</a></div>
     </section>
 
     <section id="dome">
@@ -64,7 +73,9 @@
             ある人もない人も貴重な体験を無駄にしてほし
             くない！ということで東京ドームに行ったら体験
             してほしい事紹介します！！</p>
-        <a href="note/index.html">東京ドームってどんなとこ？</a>
+            <div class="domebtn">
+        <a class="domebtn0" href="dome/index.html">東京ドームってどんなとこ？</a>
+        </div>
     </section>
 
     <section>
@@ -90,13 +101,20 @@
             熱中症にならないで楽しく過ごすために
             目を通しておいてください。
             </p>
-        <a href="note/index.html">熱中症対策</a>
+            
+            <div class="notebtn">
+        <a class="notebtn0" href="note/index.html">熱中症対策</a>
+        </div>
         <p>数少ない学校の行事を最悪な思い出に
             したくありませんよね。多くの人が集ま
             るので一人一人の対策が必要です。</p>
-        <a href="note/index.html">感染症対策</a>
+            <div class="notebtn1">
+        <a class="notebtn0" href="note/index.html">感染症対策</a>
+        </div>
         <p>ルールを守って楽しいイベントにしましょう</p>
-        <a href="note/index.html#menu0">ルール</a>
+        <div class="notebtn">
+        <a class="notebtn0" href="note/index.html#menu0">ルール</a>
+        </div>
     </section>
 </main>
     <footer>

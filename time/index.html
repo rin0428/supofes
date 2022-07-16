@@ -34,8 +34,10 @@
     <main>
     <section>
         <h2><img src="../img/text/mojitime.png" alt="タイムスケジュール"></h2>
-        <img src="../img/timesuke.png" alt="タイムスケジュール表">
-        <img src="../img/shumoku.png" alt="種目場所">
+        <div class="timesuke0">
+        <img class="timesuke" src="../img/timesuke.png" alt="タイムスケジュール表">
+        <img class="shumoku" src="../img/shumoku.png" alt="種目場所">
+        </div>
     </section>
 
     <section>
@@ -43,89 +45,88 @@
         <p>体を動かす競技は少ないけどスポフェス
             でしかできない競技やアトラクション種目、
             サイド種目を紹介します。</p>
-            <div class="menu menu01">
-                <input type="checkbox" id="menu_bar09"/>
-                <label for="menu_bar09">電子学園ウルトラクイズ</label>
-                <ul id="links09">
-                    <li><figure><img src="../img/urutora.png" alt="">
-                        <figcaption>
-                            〇×クイズ、早押しクイズ、三択クイズ
+            
+            <details>
+                <summary class="supo">電子学園ウルトラクイズ</summary>
+                
+                    <img src="../img/urutora.png" alt="ウルトラクイズ">
+                        
+                            <p>〇×クイズ、早押しクイズ、三択クイズ
                             など様々な形式がある。クイズ形式に
                             よっては運、体力も必要となり、知力
                             だけでは勝ち進むことができないことも。
-                        </figcaption>
-                    </figure></li>
-                </ul>
-                <input type="checkbox" id="menu_bar10"/>
-                <label for="menu_bar10">色別対抗大玉送り</label>
-                <ul id="links10">
-                    <li><figure><img src="../img/odama.png" alt="">
-                        <figcaption>
-                            スタート位置から一定の距離に
+                        </p>
+                </details>
+                
+                <details>
+                <summary class="supo">色別対抗大玉送り</summary>
+                    <img src="../img/odama.png" alt="お玉送り">
+                        
+                        <p>スタート位置から一定の距離に
                             転回点を作って大玉をスタート位置
                             から転回点を通ってゴールにいかに
                             早くつけるかを競う競技。
-                        </figcaption>
-                    </figure></li>
-                </ul>
-                <input type="checkbox" id="menu_bar11"/>
-                <label for="menu_bar11">色別対抗玉入れ</label>
-                <ul id="links11">
-                    <li><figure><img src="../img/tamaire.png" alt="">
-                        <figcaption>
-                            一定の離れた距離にあるかごに球を
+                        </p>
+                </details>
+
+                <details>
+                <summary class="supo">色別対抗玉入れ</summary>
+                <img src="../img/tamaire.png" alt="玉入れ">
+                        
+                            <p>一定の離れた距離にあるかごに球を
                             入れて数を競う競技。
                             また、公式競技もあり、通常とは
                             ルールが違い、100個のお手玉を
                             いかに早くかごに入れるかをきそう
                             競技となっているものもあるそうですよ
-                        </figcaption>
-                    </figure></li>
-                </ul>
-                <input type="checkbox" id="menu_bar12"/>
-                <label for="menu_bar12">アトラクション種目</label>
-                <ul id="links12">
-                    <li class="li01">ストラックアウト</li>
-                    <li class="li02">3×3の1～9の的に球を投げて
-                        いくつ的を抜くことができるかを
-                        競う競技です。</li>
-                    <li class="li01">スピードガン</li>
-                    <li class="li02">投げたボールの速さを競う競技です。</li>
-                </ul>
-                <input type="checkbox" id="menu_bar13"/>
-                <label for="menu_bar13">サイド種目</label>
-                <ul id="links13">
-                    <li class="li01">謎解き</li>
-                    <li class="li02">東京ドームの売店通路を利用して行う謎解き競技。
-                        1-3人チームでの参加になります。
-                        解答には「スクワットの回数で答える」など筋力・体力も必要になります。</li>
-                    <li class="li01">体力測定</li>
-                    <li class="li02">①握力測定、②上体起こし、③長座体前屈、④垂直飛び、
-                        ⑤立ち幅跳び、⑥プランクを測定し、自身の耐力レベルを
-                        知ることができます。</li>
-                    <li class="li01">ショートダッシュ</li>
-                    <li class="li02">レース毎に最速を決める
-                        30mショートダッシュ。</li>
-                </ul>
-            </div>
+                            </p>
+                        </details>
+
+                        <details>
+                            <summary class="supo">アトラクション競技</summary>
+                            <dl>
+                                <dt>ストラックアウト</dt>
+                                <dd>3×3の1～9の的に球を投げて
+                                    いくつ的を抜くことができるかを
+                                    競う競技です。</dd>
+                                    <dt>スピードガン</dt>
+                                    <dd>投げたボールの速さを競う競技です。</dd>
+                            </dl>
+                        </details>
+                
+                        <details>
+                            <summary class="supo">サイド種目</summary>
+                            <dl>
+                                <dt>謎解き</dt>
+                                <dd>東京ドームの売店通路を利用して行う謎解き競技。3人チームでの参加になります。解答には「スクワットの回数で答える」など筋力・体力も必要になります。</dd>
+                                <dt>体力測定</dt>
+                                <dd>①握力測定、②上体起こし、③長座体前屈、④垂直飛び、
+                                    ⑤立ち幅跳び、⑥プランクを測定し、自身の耐力レベルを
+                                    知ることができます。</dd>
+                                    <dt>ショートダッシュ</dt>
+                                    <dd>レース毎に最速を決める
+                                        30mショートダッシュ。</dd>
+                            </dl>
+                        </details>
         
-        
-        
-        
-        
-        
-        
+        <section class="fun0">
         <h2>こんな楽しみ方もどうですか？</h2>
+        <div class="fun">
         <img src="../img/superman.png" alt="ゴレンジャーの仮装をする人">
         <p>仮装をして写真を撮って「＃スポフェス2022」で
             インスタグラムに投稿してスポフェスを盛り上げよう
-        </p>
+        </p></div>
+        <div class="fun1">
         <img src="../img/sun.png" alt="ハートのサングラスをかけている人">
         <p>友達とおそろいのものを
             身につけてより仲良くなれるかも。
         </p>
+        </div>
+        <div class="fun">
         <img src="../img/ouen.png" alt="旗を振る人たち">
         <p>同じチームの人たちを応援して他学年・他学科と交流しよう。</p>
+        </div>
+        </section>
     </section>
     </main>
     <footer>
