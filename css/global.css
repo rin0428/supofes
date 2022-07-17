@@ -484,10 +484,31 @@ footer p{
     .fun0{
         height: 100%;
     }
-    .fun img{
-        float: left;
+    .fun0 p{
+        font-size: 1.6em;
     }
+    .fun, .fun2{
+        display: flex;
+        align-items: center;
+    }
+    .fun1{
+        display: flex;
+        flex-direction: row-reverse;
+    align-items: center;
+    }
+    /* .fun img{
+        float: left;
+    } */
     .fun1 img
     {
         float: right;
+    }
+    .dome0, .dome2{
+        display: flex;
+        align-items: center;
+    }
+    .dome1, .dome3{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
     }
