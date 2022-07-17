@@ -123,14 +123,20 @@ header h1 img{
 .menu-content ul .nav1{
     height: 100%;
     width: 71%;
-    background-image: url(../img/button/button1.png);
-    background-repeat: no-repeat;
+    background-color: #18B4FA;
+    box-shadow: 5px 5px 0 0 #000;
+    border: 2px solid #000;
+    /* background-image: url(../img/button/button1.png);
+    background-repeat: no-repeat; */
 }
 .menu-content ul .nav2{
     height: 100%;
     width: 71%;
-    background-image: url(../img/button/button2.png);
-    background-repeat: no-repeat;
+    background-color: #1DD2BE;
+    box-shadow: 5px 5px 0 0 #000;
+    border: 2px solid #000;
+    /* background-image: url(../img/button/button2.png);
+    background-repeat: no-repeat; */
 }
 .menu-content ul li a {
     display: block;
@@ -460,6 +466,21 @@ footer p{
     details dd{
         font-size: 1.6em;
     }
+    .note1{
+        width: 90%;
+        margin: 0 auto;
+        font-size: 2em;
+        border-bottom: 2px solid #000;
+    }
+    .note00 li{
+        font-size: 1.6em;
+        
+        list-style-type: disc;/* リストの左側に黒丸 */
+	margin-left: 24px;/* リストの左側に余白 */
+	text-align: left;
+    }
+
+
     .fun0{
         height: 100%;
     }

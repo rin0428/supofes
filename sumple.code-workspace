@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../sumple"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "スポフェス２"
+	}
+}
