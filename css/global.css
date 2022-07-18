@@ -212,6 +212,7 @@ footer p{
     background: #FE5F55;
     border: 2px solid #000;
     box-shadow: 5px 5px 0 0 #000;
+    z-index: 100;
     }
   
     /* Font Awesome */
@@ -237,6 +238,8 @@ footer p{
     /**** ここまで全体 ****/
 
 
+
+
     /*** TOP ***/
     .main{
         background-image: url(../img/photo.png);
@@ -245,8 +248,9 @@ footer p{
         height: 766px;
         position: relative;
     }
-#dome .dome2{
+#dome .dome02{
     width: 100%;
+    text-align: center;
 }
 .logo{
     background: rgba(0, 0, 0, 0.5);
@@ -315,6 +319,7 @@ footer p{
 .swiper--wrapper {
     /* wrapperのサイズを調整 */
     width: 100%;
+    
    
   }
   
@@ -444,7 +449,7 @@ footer p{
         box-shadow: 5px 5px 0 0 #000;
         border: 2px solid #000;
         font-size: 1.6em;
-        margin: 2% auto;
+        margin: 2% auto 10%;
 
     }
 
@@ -499,15 +504,21 @@ footer p{
 
     .fun0{
         height: 100%;
+        margin-bottom: 10%;
+    }
+    .fun0 h2{
+        font-size: 2em;
     }
     .fun0 p{
         font-size: 1.6em;
     }
     .fun, .fun2{
+        margin: 5% 3%;
         display: flex;
         align-items: center;
     }
     .fun1{
+        margin: 5% 3%;
         display: flex;
         flex-direction: row-reverse;
     align-items: center;
@@ -522,11 +533,16 @@ footer p{
     .dome0, .dome2{
         display: flex;
         align-items: center;
+        margin: 5% 3%;
     }
     .dome1, .dome3{
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
+        margin: 5% 3%;
+    }
+    .dome4 {
+        margin-bottom: 10%;
     }
 
 
@@ -580,9 +596,7 @@ footer p{
         height: 100px; /* 開く前に見えている部分の高さ */
         transition: all 0.5s;
     }
-    .cp_box1 input:checked + label {
-        /* display: none ; 閉じるボタンを消す場合解放 */
-    }
+    
     .cp_box1 input:checked + label:after {
         font-family: FontAwesome;
         content: ' 閉じる';
@@ -646,9 +660,7 @@ footer p{
         height: 100px; /* 開く前に見えている部分の高さ */
         transition: all 0.5s;
     }
-    .cp_box2 input:checked + label {
-        /* display: none ; 閉じるボタンを消す場合解放 */
-    }
+    
     .cp_box2 input:checked + label:after {
         font-family: FontAwesome;
         content: ' 閉じる';
@@ -661,6 +673,9 @@ footer p{
         padding-bottom: 80px; /* 閉じるボタンのbottomからの位置 */
         transition: all 0.5s;
     }
+    .funayama{
+        margin: 5% 1%;
+    }
 
     .note p{
         font-size: 1.6em;
@@ -671,6 +686,7 @@ footer p{
     }
     .kyougi p{
         font-size: 1.6em;
+        text-align: center;
     }
     .color p{
         font-size: 1.6em;
@@ -681,6 +697,7 @@ footer p{
     }
     .color h4{
         font-size: 2em;
+        margin-top: 10%;
     }
     .address h3{
         font-size: 2em;
@@ -721,6 +738,8 @@ footer p{
         font-size: 1.6em;
         margin: 2% 3%;
     }
+    
+
     .chui p,
     .chui li{
         font-size: 1.6em;
@@ -730,4 +749,17 @@ footer p{
         list-style-type: disc;/* リストの左側に黒丸 */
 	margin-left: 5%;/* リストの左側に余白 */
 	text-align: left;
+    }
+    .me h3{
+        font-size: 2em;
+    }
+
+    #kansen{
+        margin: 10% 0;
+    }
+    #note00{
+        margin-bottom: 10%;
+    }
+    #note00 h4{
+        font-size: 1.8em;
     }
