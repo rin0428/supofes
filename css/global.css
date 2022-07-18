@@ -1,6 +1,8 @@
 @charset "utf-8";
 
 /* 全体 */
+p, a, li{
+     font-family: "Noto Sans JP"; }
 *{
     padding: 0;
     margin: 0;
