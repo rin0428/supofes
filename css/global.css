@@ -44,7 +44,7 @@ header h1 img{
     background-color: #FE5F55;
     color: #fff;
     width: 15%;
-    height: 7.5%;
+    /* height: 7.5%; */
     text-decoration: none;
     
     right: 15%;
@@ -193,10 +193,12 @@ footer ul li a{
 footer a{
     color: #fff;
     text-decoration: none;
+    
 }
 footer p{
     color: #fff;
     text-align: center;
+    
 }
 
 
