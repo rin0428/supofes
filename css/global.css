@@ -36,7 +36,7 @@ a{
     background-color: #EAFCFC;
 }
 header h1 img{
-    width: 70%;
+    width: 68%;
     height: 95%;
     /* background-color: #EAFCFC; */
 }
@@ -44,7 +44,7 @@ header h1 img{
     background-color: #FE5F55;
     color: #fff;
     width: 15%;
-    /* height: 7.5%; */
+    height: 8%;
     text-decoration: none;
     
     right: 15%;
@@ -63,7 +63,7 @@ header h1 img{
     top: 0;
     right: 0;
     display: flex;
-    height: 7.5%;
+    height: 8%;
     width: 15%;
     justify-content: center;
     align-items: center;
@@ -177,9 +177,9 @@ header h1 img{
 footer{
     background-color: #727C85;
 }
-footer ul{
-    /* list-style-type: none; */
-}
+/* footer ul{
+    list-style-type: none;
+} */
 footer ul li{
     /* list-style-type: none; */
     margin-bottom: 10%;
@@ -218,8 +218,8 @@ footer p{
     #page_top::before {
         font-family: 'Font Awesome 5 Free';
         font-weight: 900;
-        content: "TOP";
-        font-size: 2em;
+        content: "ページTOP";
+        font-size: 1.6em;
         color: #ffffff;
         position: absolute;
         width: 55px;
@@ -329,6 +329,17 @@ footer p{
 
 
 
+.funayama{
+    width: 100%;
+    text-align: center;
+}
+.funayama img{
+    width: 80%;
+    /* margin: 0 auto; */
+}
+.funayama p{
+    font-size: 1.6em;
+}
 
 
 
@@ -347,7 +358,7 @@ footer p{
     }
     .btn000{
         color: #fff;
-        font-size: 1.6em;
+        font-size: 2em;
         font-weight: bold;
     }
 
@@ -362,7 +373,7 @@ footer p{
     }
     .domebtn0{
         color: #fff;
-        font-size: 1.6em;
+        font-size: 2em;
         font-weight: bold;
     }
 
@@ -387,7 +398,7 @@ footer p{
     }
     .notebtn0{
         color: #fff;
-        font-size: 1.6em;
+        font-size: 2em;
         font-weight: bold;
     }
 
@@ -476,10 +487,13 @@ footer p{
     }
     .note00 li{
         font-size: 1.6em;
-        
+        /* margin: 2% 3%; */
         list-style-type: disc;/* リストの左側に黒丸 */
-	margin-left: 24px;/* リストの左側に余白 */
+	/* margin-left: 24px;リストの左側に余白 */
 	text-align: left;
+    }
+    .note00{
+        margin-bottom: 25%;
     }
 
 
@@ -513,4 +527,207 @@ footer p{
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
+    }
+
+
+    
+    .cp_box1 *, .cp_box1 *:before, .cp_box1 *:after {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .cp_box1 {
+        position: relative;
+    }
+    .cp_box1 label {
+        /* position: absolute; */
+        z-index: 1;
+        bottom: 0;
+        
+        cursor: pointer;
+        /* text-align: center; */
+        /* 以下グラデーションは背景を自身のサイトに合わせて設定してください */
+        
+        
+    }
+    .cp_box1 input:checked + label {
+        background: inherit; /* 開いた時にグラデーションを消す */
+    }
+    .cp_box1 label:after {
+        line-height: 2.5rem;
+        position: absolute;
+        z-index: 2;
+        bottom: 20px;
+        left: 50%;
+        width: 16em;
+        height: 2em;
+        font-family: FontAwesome;
+        content: ' 続きをよむ';
+        font-weight: bold;
+        font-size: 1.6em;
+        transform: translate(-50%, 0);
+        letter-spacing: 0.05em;
+        color: #ffffff;
+        background-color: #18B4FA;
+        box-shadow: 5px 5px 0 0 #000;
+        border: 2px solid #000;
+
+    }
+    .cp_box1 input {
+        display: none;
+    }
+    .cp_box1 .cp_container {
+        overflow: hidden;
+        height: 100px; /* 開く前に見えている部分の高さ */
+        transition: all 0.5s;
+    }
+    .cp_box1 input:checked + label {
+        /* display: none ; 閉じるボタンを消す場合解放 */
+    }
+    .cp_box1 input:checked + label:after {
+        font-family: FontAwesome;
+        content: ' 閉じる';
+        font-weight: bold;
+        font-size: 1.6em
+    }
+    .cp_box1 input:checked ~ .cp_container {
+        height: auto;
+        padding-bottom: 80px; /* 閉じるボタンのbottomからの位置 */
+        transition: all 0.5s;
+    }
+
+
+
+
+    .cp_box2 *, .cp_box2 *:before, .cp_box2 *:after {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .cp_box2 {
+        position: relative;
+    }
+    .cp_box2 label {
+        /* position: absolute; */
+        z-index: 1;
+        bottom: 0;
+        
+        cursor: pointer;
+        /* text-align: center; */
+        /* 以下グラデーションは背景を自身のサイトに合わせて設定してください */
+        
+    }
+    .cp_box2 input:checked + label {
+        background: inherit; /* 開いた時にグラデーションを消す */
+    }
+    .cp_box2 label:after {
+        line-height: 2.5rem;
+        position: absolute;
+        z-index: 2;
+        bottom: 20px;
+        left: 50%;
+        width: 16em;
+        height: 2em;
+        font-family: FontAwesome;
+        content: ' 続きをよむ';
+        font-weight: bold;
+        font-size: 1.6em;
+        transform: translate(-50%, 0);
+        letter-spacing: 0.05em;
+        color: #ffffff;
+        background-color: #1DD2BE;
+        box-shadow: 5px 5px 0 0 #000;
+        border: 2px solid #000;
+
+    }
+    .cp_box2 input {
+        display: none;
+    }
+    .cp_box2 .cp_container {
+        overflow: hidden;
+        height: 100px; /* 開く前に見えている部分の高さ */
+        transition: all 0.5s;
+    }
+    .cp_box2 input:checked + label {
+        /* display: none ; 閉じるボタンを消す場合解放 */
+    }
+    .cp_box2 input:checked + label:after {
+        font-family: FontAwesome;
+        content: ' 閉じる';
+        font-weight: bold;
+        font-size: 1.6em;
+        
+    }
+    .cp_box2 input:checked ~ .cp_container {
+        height: auto;
+        padding-bottom: 80px; /* 閉じるボタンのbottomからの位置 */
+        transition: all 0.5s;
+    }
+
+    .note p{
+        font-size: 1.6em;
+    }
+
+    #dome p{
+        font-size: 1.6em;
+    }
+    .kyougi p{
+        font-size: 1.6em;
+    }
+    .color p{
+        font-size: 1.6em;
+        margin: 2% 3%;
+    }
+    .color h3{
+        font-size: 2.5em;
+    }
+    .color h4{
+        font-size: 2em;
+    }
+    .address h3{
+        font-size: 2em;
+    }
+    .address p,
+    .address address{
+        font-size: 1.6em;
+    }
+    .address p{
+        margin: 5% 3%;
+    }
+    address{
+        margin: 10% auto;
+        text-align: center;
+    }
+    .in li{
+        list-style-type: disc;/* リストの左側に黒丸 */
+	margin-left: 5%;/* リストの左側に余白 */
+	text-align: left;
+    font-size: 1.6em;
+    }
+    .menu li{
+        font-size: 1.5em;
+        margin: 2% 5%;
+    }
+    #kyougi p{
+        font-size: 1.6em;
+        margin: 2% 3%;
+    }
+    .time0 h3{
+        font-size: 2em;
+    }
+    .dome h3{
+        font-size: 2em;
+
+    }
+    .dome p{
+        font-size: 1.6em;
+        margin: 2% 3%;
+    }
+    .chui p,
+    .chui li{
+        font-size: 1.6em;
+        margin: 2% 3%;
+    }
+    .kansen li{
+        list-style-type: disc;/* リストの左側に黒丸 */
+	margin-left: 5%;/* リストの左側に余白 */
+	text-align: left;
     }
