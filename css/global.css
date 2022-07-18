@@ -219,7 +219,7 @@ footer p{
   
     /* Font Awesome */
     #page_top::before {
-        font-family: 'Font Awesome 5 Free';
+        font-family: "Noto Sans JP";
         font-weight: 900;
         content: "ページTOP";
         font-size: 1.6em;
