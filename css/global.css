@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /* 全体 */
-p, a, li, h2, h3, h4, summary, address{
+p, a, li, h2, h3, h4, summary, address, dt, dd{
      font-family: "Noto Sans JP"; }
 *{
     padding: 0;
@@ -420,6 +420,7 @@ footer p{
         padding: .5em;
     }
     
+    
     details[open] {
         padding: .5em;
     }
@@ -481,10 +482,12 @@ footer p{
 
     details dt{
         font-weight: bold;
-        font-size: 1.6em;
+        font-size: 1.9em;
+        margin: 2% 3%;
     }
     details dd{
         font-size: 1.6em;
+        margin: 2% 2%;
     }
     .note1{
         width: 90%;
@@ -496,7 +499,7 @@ footer p{
         font-size: 1.6em;
         /* margin: 2% 3%; */
         list-style-type: disc;/* リストの左側に黒丸 */
-	/* margin-left: 24px;リストの左側に余白 */
+	margin-left: 7%;/* margin-left: 24px;リストの左側に余白 */
 	text-align: left;
     }
     .note00{
@@ -588,6 +591,7 @@ footer p{
         background-color: #18B4FA;
         box-shadow: 5px 5px 0 0 #000;
         border: 2px solid #000;
+        font-family: "Noto Sans JP";
 
     }
     .cp_box1 input {
@@ -603,7 +607,8 @@ footer p{
         font-family: FontAwesome;
         content: ' 閉じる';
         font-weight: bold;
-        font-size: 1.6em
+        font-size: 1.6em;
+        font-family: "Noto Sans JP";
     }
     .cp_box1 input:checked ~ .cp_container {
         height: auto;
@@ -645,6 +650,7 @@ footer p{
         font-family: FontAwesome;
         content: ' 続きをよむ';
         font-weight: bold;
+        font-family: "Noto Sans JP";
         font-size: 1.6em;
         transform: translate(-50%, 0);
         letter-spacing: 0.05em;
@@ -668,6 +674,7 @@ footer p{
         content: ' 閉じる';
         font-weight: bold;
         font-size: 1.6em;
+        font-family: "Noto Sans JP";
         
     }
     .cp_box2 input:checked ~ .cp_container {
@@ -717,7 +724,7 @@ footer p{
     }
     .in li{
         list-style-type: disc;/* リストの左側に黒丸 */
-	margin-left: 5%;/* リストの左側に余白 */
+	margin-left: 7%;/* リストの左側に余白 */
 	text-align: left;
     font-size: 1.6em;
     }
@@ -749,7 +756,7 @@ footer p{
     }
     .kansen li{
         list-style-type: disc;/* リストの左側に黒丸 */
-	margin-left: 5%;/* リストの左側に余白 */
+	margin-left: 7%;/* リストの左側に余白 */
 	text-align: left;
     }
     .me h3{
